@@ -63,3 +63,4 @@ SELECT SUM(new_cases) as total_cases, SUM(new_deaths) as total_deaths, SUM(new_d
 FROMPortfolioProject.CovidDeaths
 WHERE continent IS NOT NULL
 ORDER BY 1,2
+
